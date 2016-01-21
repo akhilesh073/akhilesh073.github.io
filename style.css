@@ -2028,3 +2028,35 @@ textarea.materialize-textarea {
   .pagination li {width: 25px;margin: 0 5px;}
 
 }
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.social-links a {
+  width: 36px;
+  height: 36px;
+  display: block;
+  line-height: 35px;
+  text-align: center;
+  border: 1px solid #3c3c3c;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+      border-radius: 3px;
+  font-size: 20px;
+  color: #78adc9;
+}
+
+.social-links a:hover {
+  border: 1px solid grey;
+  color: blue;
+}
+.copyright {
+  margin: 0;
+}
